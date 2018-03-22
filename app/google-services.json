@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "393431126801",
+    "firebase_url": "https://puzzlelevel.firebaseio.com",
+    "project_id": "puzzlelevel",
+    "storage_bucket": "puzzlelevel.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:393431126801:android:54c9701f9f84449f",
+        "android_client_info": {
+          "package_name": "com.usamah.puzzle_level"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "393431126801-jierknl6k3ft6p7jo8fufj0gdbri2h4n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.usamah.puzzle_level",
+            "certificate_hash": "2934fef8de3f678bc19b24c8ce0221b8a8ad4c52"
+          }
+        },
+        {
+          "client_id": "393431126801-3ipm4964t5fo3llhi7c1t3fj4j0j7l81.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_GGVmS4C_BlTmWovo5H9MvsFmQFdL2wQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "393431126801-3ipm4964t5fo3llhi7c1t3fj4j0j7l81.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

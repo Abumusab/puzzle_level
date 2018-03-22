@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.usamah.puzzle_level">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".page_1">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".page_2" />
+        <activity android:name=".page_3" />
+        <activity android:name=".page_4" />
+        <activity android:name=".page_5" />
+        <activity android:name=".page_6" />
+        <activity android:name=".page_7" />
+        <activity android:name=".page_8" />
+        <activity android:name=".page_9" />
+        <activity android:name=".page_10" />
+        <activity android:name=".page_11" />
+        <activity android:name=".page_12"></activity>
+    </application>
+
+</manifest>
