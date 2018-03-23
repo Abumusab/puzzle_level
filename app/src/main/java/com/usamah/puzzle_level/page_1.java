@@ -84,6 +84,7 @@ public class page_1 extends AppCompatActivity {
 
         game
                 // يامرحباً بكم
+                // يامرحباً بكم
                 .setMessage("طريقة اللعب: " +
                         " كل مستوى له نمط مخصص" +
                         ", الرقم أسفل المستوى يعبر عن المستوى الحالي" +
