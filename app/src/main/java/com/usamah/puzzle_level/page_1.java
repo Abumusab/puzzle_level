@@ -105,6 +105,7 @@ public class page_1 extends AppCompatActivity {
 
                         });
 
+// abumusb adkaskdlklaskdl;sakd;s
 
         AlertDialog aleratDialog = game.create();
         aleratDialog.show();
