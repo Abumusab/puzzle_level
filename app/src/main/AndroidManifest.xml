@@ -10,11 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".page_1">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity android:name=".page_2" />
         <activity android:name=".page_3" />
@@ -26,7 +22,15 @@
         <activity android:name=".page_9" />
         <activity android:name=".page_10" />
         <activity android:name=".page_11" />
-        <activity android:name=".page_12"></activity>
+        <activity android:name=".page_12" />
+        <activity android:name=".test_coins">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
