@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/PuzzleLevelShare.iml" filepath="$PROJECT_DIR$/PuzzleLevelShare.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/puzzle_level.iml" filepath="$PROJECT_DIR$/puzzle_level.iml" />
+      <module fileurl="file://C:\Users\asa93\AndroidStudioProjects\PuzzleLevelShare\puzzle_level.iml" filepath="C:\Users\asa93\AndroidStudioProjects\PuzzleLevelShare\puzzle_level.iml" />
     </modules>
   </component>
 </project>
