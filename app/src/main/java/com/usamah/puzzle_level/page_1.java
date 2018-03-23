@@ -55,6 +55,7 @@ public class page_1 extends AppCompatActivity {
                     startActivity(next);
                 }else {
 
+
                    Toast.makeText(getApplicationContext(),"إجابة خاطئة",Toast.LENGTH_SHORT).show();
                 }
 
