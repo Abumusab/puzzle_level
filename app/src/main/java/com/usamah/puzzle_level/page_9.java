@@ -76,7 +76,7 @@ public class page_9 extends AppCompatActivity {
         hint.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                hintText.setText(". = 1");
+                hintText.setText("النقطة تساوي 1");
                 hintagain.setText("تلميحة أخرى؟");
             }
         });
@@ -84,7 +84,7 @@ public class page_9 extends AppCompatActivity {
         hintagain.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                hintText.setText("- = 2");
+                hintText.setText("الشرطة تساوي 2");
             }
         });
     }

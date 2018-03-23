@@ -83,7 +83,7 @@ public class page_1 extends AppCompatActivity {
         AlertDialog.Builder game=new AlertDialog.Builder(page_1.this);
 
         game
-
+                // يامرحباً بكم
                 .setMessage("طريقة اللعب: " +
                         " كل مستوى له نمط مخصص" +
                         ", الرقم أسفل المستوى يعبر عن المستوى الحالي" +

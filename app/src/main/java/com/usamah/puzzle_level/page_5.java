@@ -45,14 +45,13 @@ public class page_5 extends AppCompatActivity {
         accept.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String acppass=pass.getText().toString();
+                String acppass = pass.getText().toString();
 
 
-
-                if (acppass.equals("vi")){
-                    Intent next=new Intent(page_5.this,page_6.class);
+                if (acppass.equals("vi")) {
+                    Intent next = new Intent(page_5.this, page_6.class);
                     startActivity(next);
-                }else {
+                } else {
 
                     if (acppass.equals("VI")) {
                         Intent next = new Intent(page_5.this, page_6.class);
@@ -66,12 +65,17 @@ public class page_5 extends AppCompatActivity {
                                 Intent next = new Intent(page_5.this, page_6.class);
                                 startActivity(next);
                             } else {
+                                if (acppass.equals("next")) {
+                                    Intent next = new Intent(page_5.this, page_6.class);
+                                    startActivity(next);
+                                }else {
 
                                 Toast.makeText(getApplicationContext(), "إجابة خاطئة", Toast.LENGTH_SHORT).show();
                             }
                         }
                     }
                 }
+            }
             }
 
         });
